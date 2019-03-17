@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>Hallo</h3>
+    <h3>Todos</h3>
     <div class="todos">
       <div v-for="todo in allTodos" v-bind:key="todo.id" class="todo">{{todo.title}}</div>
     </div>
